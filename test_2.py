@@ -1,1 +1,1 @@
-"este archivo es para una segunda prueba"
+"este es el archivo del prompt-migration"
