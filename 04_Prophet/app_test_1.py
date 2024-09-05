@@ -36,4 +36,4 @@ if __name__ == '__main__':
 #print(predictions)
 
 # Para ejecutar:
-# python app.py
+# python app_test_1.py
