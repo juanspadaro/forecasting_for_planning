@@ -65,8 +65,14 @@ def predict():
     # Realizar las predicciones
     predictions = model.predict(dmatrix_input)
 
-    # Formatear los resultados en un formato JSON amigable
-    result = pd.DataFrame({'Predicted': predictions}).to_dict(orient='records')
+    # Obtener la importancia de las características
+    importance_dict = model.get_score(importance_type='weight')  # Puedes cambiar 'weight' por 'gain', 'cover', etc.
+    
+    # Formatear las predicciones y la importancia en un formato JSON amigable
+    result = {
+        "predictions": pd.DataFrame({'Predicted': predictions}).to_dict(orient='records'),
+        "feature_importance": importance_dict
+    }
 
     return jsonify(result)
 
