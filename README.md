@@ -1,7 +1,7 @@
 
-# Forecast_Facturapp
+# Forecasting for planning
 
-**Forecast de demanda: Facturapp**
+**Forecast de demanda**
 
 Este repositorio contiene los diferentes enfoques utilizados para realizar forecasting de demanda en el contexto de Facturapp, utilizando varias técnicas de modelado estadístico y machine learning. El objetivo es comparar diferentes modelos y herramientas para predecir la demanda y mejorar la eficiencia del negocio.
 
