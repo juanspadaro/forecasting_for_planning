@@ -51,8 +51,8 @@ Este repositorio contiene los diferentes enfoques utilizados para realizar forec
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/forecast_facturapp.git
-   cd forecast_facturapp
+   git clone https://github.com/tu-usuario/forecasting_for_planning.git
+   cd forecasting_for_planning
    ```
 
 2. **Instala las dependencias**:
